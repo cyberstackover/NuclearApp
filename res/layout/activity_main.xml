@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<SeekBar
+	    android:id="@+id/seekcooler"
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:layout_x="0dp"
+	    android:layout_y="460dp" />
+
+	<TextView
+	    android:id="@+id/txtcooler"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="14dp"
+	    android:layout_x="19dp"
+	    android:layout_y="428dp"
+	    android:text="Cooler Flow"
+	    android:textColor="#ff000000" />
+
+	<SeekBar
+	    android:id="@+id/seekpower"
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="16dp"
+	    android:layout_x="0dp"
+	    android:layout_y="378dp" />
+
+	<TextView
+	    android:id="@+id/txtpower"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="22dp"
+	    android:layout_x="19dp"
+	    android:layout_y="346dp"
+	    android:text="Power Out"
+	    android:textColor="#ff000000" />
+
+	<SeekBar
+	    android:id="@+id/seekwater"
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="16dp"
+	    android:layout_x="0dp"
+	    android:layout_y="296dp" />
+
+	<TextView
+	    android:id="@+id/txtwater"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="14dp"
+	    android:layout_x="19dp"
+	    android:layout_y="264dp"
+	    android:text="Water Level"
+	    android:textColor="#ff000000" />
+
+	<SeekBar
+	    android:id="@+id/seektemp"
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="16dp"
+	    android:layout_x="0dp"
+	    android:layout_y="214dp" />
+
+	<SeekBar
+	    android:id="@+id/seekfuel"
+	    android:layout_width="300dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="16dp"
+	    android:layout_x="0dp"
+	    android:layout_y="136dp"
+	    android:max="10" />
+
+	<TextView
+	    android:id="@+id/txttemp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:layout_x="19dp"
+	    android:layout_y="182dp"
+	    android:text="Temperature"
+	    android:textColor="#ff000000" />
+
+	<TextView
+	    android:id="@+id/txtfuel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="14dp"
+	    android:layout_x="19dp"
+	    android:layout_y="104dp"
+	    android:text="Fuel Level"
+	    android:textColor="#ff000000" />
+
+	<TextView
+	    android:id="@+id/fuel"
+	    android:layout_width="55dp"
+	    android:layout_height="44dp"
+	    android:layout_x="292dp"
+	    android:layout_y="132dp"
+	    android:text="0"
+	    android:textSize="25sp" />
+	<TextView
+	    android:id="@+id/temp"
+	    android:layout_width="55dp"
+	    android:layout_height="44dp"
+	    android:layout_x="292dp"
+	    android:layout_y="210dp"
+	    android:text="0"
+	    android:textSize="25sp" />
+	<TextView
+	    android:id="@+id/water"
+	    android:layout_width="55dp"
+	    android:layout_height="44dp"
+	    android:layout_x="292dp"
+	    android:layout_y="292dp"
+	    android:text="0"
+	    android:textSize="25sp" />
+	<TextView
+	    android:id="@+id/power"
+	    android:layout_width="55dp"
+	    android:layout_height="44dp"
+	    android:layout_x="292dp"
+	    android:layout_y="375dp"
+	    android:text="0"
+	    android:textSize="25sp" />
+	<TextView
+	    android:id="@+id/cooler"
+	    android:layout_width="55dp"
+	    android:layout_height="44dp"
+	    android:layout_x="292dp"
+	    android:layout_y="458dp"
+	    android:text="0"
+	    android:textSize="25sp" />
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="71dp"
+	    android:layout_height="71dp"
+	    android:layout_x="147dp"
+	    android:layout_y="18dp"
+	    android:src="@drawable/ic_launcher2" />
+
+	<ImageView
+	    android:id="@+id/imageView2"
+	    android:layout_width="137dp"
+	    android:layout_height="64dp"
+	    android:layout_x="119dp"
+	    android:layout_y="493dp"
+	    android:src="@drawable/logo" />
+
+</AbsoluteLayout>
